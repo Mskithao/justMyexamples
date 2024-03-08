@@ -3,6 +3,7 @@
 
 int main(void)
 {
+	/*this is a program to describe the fork system call*/
 	pid_t pid;/* pid-data type stores the process id, its unsigned int*/
 	printf("Before fork i was one\n");
 
@@ -23,6 +24,7 @@ int main(void)
 	}
 	if (pid !=0);
 	{
+		sleep(10);
 		printf("i am the parent");
 	}
 	
